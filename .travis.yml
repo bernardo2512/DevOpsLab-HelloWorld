@@ -18,7 +18,6 @@ script:
 
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
-  skip_cleanup: true
   provider: heroku
   api-key: 
     secure: $API_KEY_HEROKU
